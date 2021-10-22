@@ -11,8 +11,7 @@ int main()
 	cin >> a;
 	switch (a) 
 	{
-		case 0:cout << "Літери відсутні!"; break;
-		case 1:cout << "Літери відсутні!"; break;
+		case 0:case 1:cout << "Літери відсутні!"; break;
 		case 2:cout << "A, B, C"; break;
 		case 3:cout << "D, E, F"; break;
 		case 4:cout << "G, H, I"; break;
