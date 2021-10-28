@@ -15,7 +15,7 @@ int main()
         Y += pow(x, i);
     }
     Y = log(pow(x, 3) + cos(Y));
-    cout << "Результат: " << Y;
+    printf("Результат: %lf", Y);
 }
 
 
